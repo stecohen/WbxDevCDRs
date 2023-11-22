@@ -2,7 +2,7 @@
 
 ![RoomOS10-Yes](https://img.shields.io/badge/RoomOS%2010-Compatible-green.svg?style=for-the-badge&logo=cisco) ![RoomOS11-Yes](https://img.shields.io/badge/RoomOS%2011-Compatible-green.svg?style=for-the-badge&logo=cisco)
 
-Macro to send Call Detailled Reports to a cloud destination 
+Macro to send Call Infos to a cloud destination... from which CDRs (Call Detailled Reports) can be created.
 Allows data to be posted to a Webex Space, or to a HTTP Server (such as Power Bi)
 The following items are needed, depending on the enabled services.
 
