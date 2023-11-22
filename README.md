@@ -74,4 +74,4 @@ This macro is NOT guaranteed to be bug free and production quality.
 ## Credits
 
 - [CiscoDevNet](https://github.com/CiscoDevNet) for creating [roomdevices-macros-samples](https://github.com/CiscoDevNet/roomdevices-macros-samples)
-- ... and [jeremywillans] (https://github.com/jeremywillans/roomos-macros) on which this Macro is based on
+- [Jeremy Willans](https://github.com/jeremywillans/roomos-macros) on which this Macro is based on
