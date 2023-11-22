@@ -4,9 +4,6 @@
 
 Macro to send Call Detailled Reports to a cloud destination 
 Allows data to be posted to a Webex Space, or to a HTTP Server (such as Power Bi)
-
-Does not require all questions to be completed for data to be captured, any data entered will be used for processing.
-
 The following items are needed, depending on the enabled services.
 
 **Webex Space**
@@ -16,11 +13,10 @@ The following items are needed, depending on the enabled services.
   - Using the [List Rooms](https://developer.webex.com/docs/api/v1/rooms/list-rooms) Developer API
   - Adding `astronaut@webex.bot` to the space (bot will leave and 1:1 you the Id)
 
-
 **HTTP JSON**
 - A remote service capable of receiving HTTP POST messages, including Power BI Streaming Dataset.
 - (Example) [CSV Server](https://github.com/jeremywillans/csv-server) can be used to test receiving messages and storing them in a CSV File
-- The following format is used for the JSON Message
+- The following format example is used for the JSON Message
   ```
   [ 
     { 
@@ -41,7 +37,7 @@ The following items are needed, depending on the enabled services.
       RemoteURI: 'spark:xxxxx-8887-11ee-9dbd-024263e3ac96',
       RequestedURI: 'bc@xxxxx.calls.webex.com',
       id: '1',
-      system: 'stcohen-home-DX70',
+      system: 'jdoe-home-DX70',
       destination: false 
     }
   ]
